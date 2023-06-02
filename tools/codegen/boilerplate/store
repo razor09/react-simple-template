@@ -1,0 +1,7 @@
+import { Store, useStore } from './factory';
+
+class nameStore extends Store {}
+
+export const _nameStore = new nameStore();
+
+export const usenameStore = useStore(_nameStore);

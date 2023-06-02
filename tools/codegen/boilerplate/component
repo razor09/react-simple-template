@@ -1,0 +1,10 @@
+import { nameComponent } from './name.d';
+import style from './name.scss';
+
+export const name: nameComponent = () => {
+  return (
+    <div className={style.container}>name</div>
+  );
+};
+
+name.defaultProps = {};
